@@ -1,4 +1,121 @@
+
+
 *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+
+}
+.cards-container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 20px 10px;
+}
+.card2{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.card1, .card2, .card3{
+  padding: 10px;
+}
+.card1 h1, .card2 h1, .card3 h1{
+  color: rgb(22, 182, 22);
+  text-align: center;
+}
+.card1 p, .card2 p, .card3 p{
+  font-size: 14px;
+  text-align: center;
+  margin: 5px auto;
+}
+.section1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 90%;
+}
+
+.left-side{
+  width: 50%;
+}
+.left-side p{
+  font-size: 14px;
+  color: rgb(52, 52, 52);
+  width: 80%;
+  margin-top: 10px;
+}
+.right-side{
+  width: 50%;
+}
+.right-side img{
+  width: 90%;
+}
+.finding{
+  flex-direction: column;
+  display: flex;
+  margin: 20px,20px;
+}
+.top1{
+  margin-top: 60px;
+  justify-content: center;
+  text-align: center;
+}
+.top2{
+  margin-left: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.buttom{
+  justify-content: center;
+  margin: 20px auto;
+  
+}
+.container3{
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.pot1{
+margin-bottom: 20px;
+  height: 300px;
+  flex-direction: row;
+  display: flex;
+}
+.pot2{
+  margin-left: 20px;
+  margin-top: 8%;
+  width: 500px;
+  flex-direction: column;
+  display: flex;
+}
+.container4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ text-align: center;
+}
+.max1{
+  margin-bottom: 20px;
+}
+.max2{
+  margin-left: 100px;
+  margin-bottom: 20px;
+  width: 1000px;
+  text-align: center;
+  justify-content: center;
+}
+.small img{
+  width: 80%;
+}
+/* *{
+
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -84,4 +201,4 @@ margin: 15px auto;
   .bottom1, .bottom2, .bottom3{
     width: 300px;
   }
-}
+} */
